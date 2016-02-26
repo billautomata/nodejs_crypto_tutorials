@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_crypto_tutorials",
+  "version": "1.0.0",
+  "description": "asymmetric and symmetric encryption examples, diffie hellman, rsa, aes",
+  "main": "diffie_hellman_shared_secret.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billautomata/nodejs_crypto_tutorials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billautomata/nodejs_crypto_tutorials/issues"
+  },
+  "homepage": "https://github.com/billautomata/nodejs_crypto_tutorials#readme",
+  "dependencies": {
+    "openssl-wrapper": "^0.2.3"
+  }
+}
