@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/billautomata/nodejs_crypto_tutorials#readme",
   "dependencies": {
+    "keypair": "^1.0.0",
     "openssl-wrapper": "^0.2.3"
   }
 }

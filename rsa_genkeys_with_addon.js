@@ -1,8 +1,10 @@
 var crypto = require('crypto')
-var fs = require('fs')
+var keypair = require('keypair')
 
-var alice_private = fs.readFileSync('./keys/pkey.pem')
-var alice_public = fs.readFileSync('./keys/public.pem')
+var keys = keypair()
+
+var alice_public = keys.public
+var alice_private = keys.private
 
 var message = Buffer('This needs to stay secret.')
 var encrypted_message = crypto.publicEncrypt(alice_public, message)
